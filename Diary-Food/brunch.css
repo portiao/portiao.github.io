@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    font-family: Verdana 黑體;
+    font-size: 12px;
+    background: url(images/首頁圖/bg-body.gif)repeat;
+    /*background: #FFDD85;*/
+    min-width: 980px;
+    padding: 0;
+}
+
+.body {
+    width: 980px;
+    margin: 0 auto;
+    background-color: white;
+    margin: 0 auto;
+    padding: 0;
+}
+
+div img {
+    display: block;
+    float: left;
+}
+
+
+/*------------------------- Header -------------------------*/
+
+.header {
+    padding: 20px 20px 0px 20px;
+}
+
+.section {
+    margin: 0;
+    padding: 10px;
+    height: 40px;
+}
+
+a,
+li {
+    display: inline;
+    list-style: none;
+    text-decoration: none;
+    color: #FF98B5;
+}
+
+.nav {
+    float: right;
+    margin: 20px 0 0 30px;
+    padding: 0 20px 0 20px;
+    color: #FF98B5;
+    font-weight: bold;
+}
+
+.nav li {
+    padding: 0 20px 0 0;
+    font-size: 16px;
+}
+
+.article {
+    background: url(images/plant2.jpg)no-repeat;
+    height: 699px;
+    color: #FF98B5;
+}
+
+.article h1 {
+    color: #eee;
+    font-size: 30px;
+    font-family: 黑體;
+    position: relative;
+    top: 300px;
+    left: 10px;
+}
+
+.nav a:hover {
+    color: #FF4C7D;
+}
+
+
+/*------------------------- brunch -------------------------*/
+
+#key {
+    padding: 0 0 0 15px;
+    margin: 0;
+}
+
+.brunch-1 {
+    height: 500px;
+    text-align: center;
+    padding: 200px 150px 50px 150px;
+    color: #FF4C7D;
+}
+
+.brunch-1 tr td p {
+    font-size: 20px;
+}
+
+.brunch-1-1 {
+    float: left;
+}
+
+.brunch-1-2 {
+    float: right;
+}
+
+.brunch-1-1 td a > img:hover,
+.brunch-1-2 td a > img:hover {
+    opacity: 0.8;
+}
+
+
+/*------------------------- Footer ---------------------------*/
+
+.footer {
+    clear: both;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 20px;
+    padding: 20px;
+}
+
+.footer p {
+    color: #FF98B5;
+    font-weight: bold;
+}
